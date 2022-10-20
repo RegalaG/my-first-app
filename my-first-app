@@ -34,7 +34,7 @@
 <form action="" method="post">
     Book a Date <input type="date" name="Book a Date " min="2022-10-20" max="2022-12-31"><br>
     Number of People<input type="range" id="rangeInput" name="rangeInput" value="2" min="2" max="10" oninput="amount.value=rangeInput.value">
-    <output id="amount" name="amount" for="rangeInput">0</output><br>
+    <output id="amount" name="amount" for="rangeInput">2</output><br>
        <article>
         Location<input list="Location" name="Location">
       <datalist id="Location">
