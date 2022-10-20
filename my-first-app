@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>act2</title>
+    <style>
+      body{text-align: center;}
+    </style>
+</head>
+<body>
+
+<article id="header">
+
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <img src="WD-Logo.png" alt="">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <a href="#Home" data-after="Home">Home</a>
+                    <a href="#Location" data-after="Location">Location</a>
+                    <a href="#Blog" data-after="Blog">Blog</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>
+<h1>
+    Book a Trip
+</h1>    
+<form action="" method="post">
+    Book a Date <input type="date" name="Book a Date " min="2022-10-20" max="2022-12-31"><br>
+    Number of People<input type="range" id="rangeInput" name="rangeInput" value="2" min="2" max="10" oninput="amount.value=rangeInput.value">
+    <output id="amount" name="amount" for="rangeInput">0</output><br>
+       <article>
+        Location<input list="Location" name="Location">
+      <datalist id="Location">
+        <option value="Downtown">
+        <option value="Uptown">
+      </datalist>
+        </article>
+    </form>
+    <video width="320" height="240" controls>
+        <source src="video.mp4">
+    </video> <br>
+    <article>
+        <label for="rating"> Rating </label><input type="range" min="1" max="5" value="3" step="1" list="rate" id="rating">
+        <datalist id="rate">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+         </datalist>
+        </article>
+        <input type="checkbox" id="checkBox" name="checkBox" value="box">
+        <label for="checkBox"> I agree to the cancellation</label><br>
+
+</body>
+<footer>
+    <p>Copyright@2022 GeraldRegala</a></p>
+  </footer>
+</html>
